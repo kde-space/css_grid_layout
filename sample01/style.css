@@ -196,11 +196,48 @@ body {
   .post {
     grid-template-columns: none;
     grid-template-rows: none;
+    grid-row-gap: 20px;
+    padding: 20px;
+    font-size: 14.4px;
   }
 
   .post > * ,
   .post::after {
     grid-column: auto;
     grid-row: auto;
+  }
+
+  .post-title {
+    grid-column: 1;
+    grid-row: 1;
+    word-break: keep-all;
+  }
+
+  .post::after {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: end;
+    margin-bottom: -20px;
+  }
+
+  .post-sub {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 24px;
+  }
+
+  .post-date {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+  }
+
+  .post-lead {
+    font-size: 16px;
+  }
+
+  .post-fig01 {
+    margin-right: -20px;
+    margin-left: -20px;
   }
 }
