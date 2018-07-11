@@ -17,11 +17,12 @@ img {
   display: grid;
   grid-template-columns: 300px 1fr 200px;
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "header header news"
-                       "mv mv mv"
-                       "sidemenu section01 section01"
-                       "sidemenu section02 section02"
-                       "footer footer footer";
+  grid-template-areas:
+    "header header news"
+    "mv mv mv"
+    "sidemenu section01 section01"
+    "sidemenu section02 section02"
+    "footer footer footer";
   gap: 30px 10px;
   max-width: 1000px;
   margin: 0 auto;
