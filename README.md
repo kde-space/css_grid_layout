@@ -1,7 +1,7 @@
 # CSS Grid Layout
 
 ## demo
-https://kde-space.github.io/css_grid_layout/
+https://kde-space.github.io/css_grid_layout/demo01/
 
 ## 参考資料
 - [CSS Grid Layout入門。対応ブラウザが出揃った新しいレイアウト仕様 (ICS media)](https://ics.media/entry/15649)
